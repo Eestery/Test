@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "thatpreston/mermod/client/mixin/LivingEntityMixin": {
+      "travel": "Lnet/minecraft/entity/LivingEntity;func_213352_e(Lnet/minecraft/util/math/vector/Vector3d;)V"
+    },
+    "thatpreston/mermod/client/mixin/ArmorFeatureRendererMixin": {
+      "renderArmorPiece": "Lnet/minecraft/client/renderer/entity/layers/BipedArmorLayer;func_241739_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/inventory/EquipmentSlotType;ILnet/minecraft/client/renderer/entity/model/BipedModel;)V"
+    },
+    "thatpreston/mermod/client/mixin/GameRendererMixin": {
+      "getNightVisionScale": "Lnet/minecraft/client/renderer/GameRenderer;func_180438_a(Lnet/minecraft/entity/LivingEntity;F)F"
+    },
+    "thatpreston/mermod/client/mixin/ModelRendererMixin": {
+      "compile": "func_228306_a_(Lcom/mojang/blaze3d/matrix/MatrixStack$Entry;Lcom/mojang/blaze3d/vertex/IVertexBuilder;IIFFFF)V",
+      "children": "field_78805_m:Lit/unimi/dsi/fastutil/objects/ObjectList;"
+    },
+    "thatpreston/mermod/client/mixin/PlayerRendererMixin": {
+      "Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;isCrouching()Z": "Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;func_213453_ef()Z",
+      "setModelProperties": "Lnet/minecraft/client/renderer/entity/PlayerRenderer;func_177137_d(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "thatpreston/mermod/client/mixin/LivingEntityMixin": {
+        "travel": "Lnet/minecraft/entity/LivingEntity;func_213352_e(Lnet/minecraft/util/math/vector/Vector3d;)V"
+      },
+      "thatpreston/mermod/client/mixin/ArmorFeatureRendererMixin": {
+        "renderArmorPiece": "Lnet/minecraft/client/renderer/entity/layers/BipedArmorLayer;func_241739_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/inventory/EquipmentSlotType;ILnet/minecraft/client/renderer/entity/model/BipedModel;)V"
+      },
+      "thatpreston/mermod/client/mixin/GameRendererMixin": {
+        "getNightVisionScale": "Lnet/minecraft/client/renderer/GameRenderer;func_180438_a(Lnet/minecraft/entity/LivingEntity;F)F"
+      },
+      "thatpreston/mermod/client/mixin/ModelRendererMixin": {
+        "compile": "func_228306_a_(Lcom/mojang/blaze3d/matrix/MatrixStack$Entry;Lcom/mojang/blaze3d/vertex/IVertexBuilder;IIFFFF)V",
+        "children": "field_78805_m:Lit/unimi/dsi/fastutil/objects/ObjectList;"
+      },
+      "thatpreston/mermod/client/mixin/PlayerRendererMixin": {
+        "Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;isCrouching()Z": "Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;func_213453_ef()Z",
+        "setModelProperties": "Lnet/minecraft/client/renderer/entity/PlayerRenderer;func_177137_d(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;)V"
+      }
+    }
+  }
+}

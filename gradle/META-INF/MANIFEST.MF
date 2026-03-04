@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: examplemod
+Specification-Vendor: examplemodsareus
+Specification-Version: 1
+Implementation-Title: Mermod Forge
+Implementation-Version: 1.2
+Implementation-Vendor: examplemodsareus
+Implementation-Timestamp: 2023-06-17T16:58:53-0500
+MixinConfigs: mermod.mixins.json
+
